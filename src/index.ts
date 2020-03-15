@@ -70,6 +70,7 @@ class Alto {
 
   /**
    * 获取当前url中的query对象
+   * @static
    * @returns {object} query对象
    */
   static getQueryObj(): Record<string, string> {

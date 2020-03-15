@@ -7,12 +7,12 @@
     "build": "rollup --config",
     "watch": "rollup --config --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -w",
     "pub": "yarn build && npm publish && npm run version"
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.xiguacity.cn:fee/alto.git"
+    "url": "git@github.com:lingxiao-Zhu/alto.git"
   },
   "author": "",
   "license": "ISC",

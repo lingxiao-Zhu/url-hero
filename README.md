@@ -1,15 +1,15 @@
-# alto
+# url-hero
 
-URL URL 链式处理工具库
+URL 链式处理工具库
 
 ## 安装
 
-`yarn add alto`
+`yarn add url-hero`
 
 ## 使用
 
 ```javascript
-import U from 'alto';
+import U from 'url-hero';
 
 // 对象方法
 // 初始化URL，abid=111和hash=123会作为query初始值
@@ -40,7 +40,7 @@ U.getQueryObj();
  * @returns {object} query对象
  * @example
  *
- * Alto.parseQuery('a=1&b=2')
+ * U.parseQuery('a=1&b=2')
  *
  * {
  *   a:1,
@@ -49,7 +49,3 @@ U.getQueryObj();
  */
 U.parseQuery('a=1&b=2');
 ```
-
-## 发布
-
-`npm run pub`

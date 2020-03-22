@@ -1,5 +1,5 @@
 {
-  "name": "alto",
+  "name": "url-hero",
   "version": "1.0.0",
   "description": "URL链式处理工具库",
   "main": "lib/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:lingxiao-Zhu/alto.git"
+    "url": "git@github.com:lingxiao-Zhu/url-hero.git"
   },
   "author": "",
   "license": "ISC",
